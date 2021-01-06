@@ -16,13 +16,13 @@ export default function DarkMode() {
 
   return (
     <>
-          <button
-              onClick={handleMode}
+      <button
+        onClick={handleMode}
         id="switchTheme"
-        class="h-10 w-10 flex justify-center items-center focus:outline-none text-yellow-500"
+        className="h-10 w-10 flex justify-center items-center focus:outline-none text-yellow-500"
       >
         <svg
-          class="w-6 h-6"
+          className="w-6 h-6"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,6 @@ export default function DarkMode() {
           ></path>
         </svg>
       </button>
-   
     </>
   );
 }

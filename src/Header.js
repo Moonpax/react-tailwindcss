@@ -4,8 +4,8 @@ import DarkMode from './DarkMode';
 export default function Header() {
   return (
     <>
-      <nav class="border-b dark:border-gray-500 bg-white dark:bg-gray-900">
-        <div class="max-w-7xl mx-auto flex items-center h-20 w-full justify-between px-4">
+      <nav className="border-b dark:border-gray-500 bg-white dark:bg-gray-900">
+        <div className="max-w-7xl mx-auto flex items-center h-20 w-full justify-between px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 102.4 30"
@@ -17,7 +17,7 @@ export default function Header() {
             <path
               fill="#494949"
               d="M65.4 6.9c-4.5 0-8.1 3.6-8.1 8.1s3.6 8.1 8.1 8.1 8.1-3.6 8.1-8.1-3.6-8.1-8.1-8.1zm0 12.9c-2.6 0-4.8-2.1-4.8-4.8s2.1-4.8 4.8-4.8c2.6 0 4.8 2.1 4.8 4.7 0 2.7-2.1 4.9-4.8 4.9zM83.4 10.8c-2.3 0-4.2 1.9-4.2 4.2v7.7h-3.5V7.4h3.5v2.4c1-1.5 2.7-2.4 4.5-2.4h1.1v3.4h-1.4zM48.2 7.4L50.8 18l2.9-10.6h3.4l-4.4 15.3h-3.5L46.5 12l-2.7 10.7h-3.5L35.9 7.4h3.4L42.2 18l2.7-10.6zM95 14.4c2.6-1.4 4.1-4.1 4.1-7.1h-3.4c0 2.6-2.1 4.6-4.6 4.6h-.5V0h-3.5v22.7h3.5v-7.2h.4c.4 0 .8.2 1 .5l4.9 6.7h4.2L95 14.4z"
-              class="logo-work"
+              className="logo-work"
             ></path>{' '}
             <path
               fill="#6fda44"
@@ -25,18 +25,18 @@ export default function Header() {
             ></path>
           </svg>
 
-          <div class="flex items-center">
-            <button class="hidden lg:block px-4 dark:text-white">
+          <div className="flex items-center">
+            <button className="hidden lg:block px-4 dark:text-white">
               HOW IT WORKS
             </button>
-            <button class="hidden lg:block px-4 dark:text-white">
+            <button className="hidden lg:block px-4 dark:text-white">
               SOLUTIONS
             </button>
-            <button class="hidden lg:block px-4 dark:text-white">
+            <button className="hidden lg:block px-4 dark:text-white">
               ENTERPRISE
             </button>
-            <button class="px-4 dark:text-white">LOG IN</button>
-            <button class="bg-green-500 text-white rounded shadow-md px-4 py-1">
+            <button className="px-4 dark:text-white">LOG IN</button>
+            <button className="bg-green-500 text-white rounded shadow-md px-4 py-1">
               Sign Up
             </button>
               <DarkMode />

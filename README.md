@@ -4,6 +4,8 @@ Rapidly build modern websites without ever leaving your HTML.
 
 ## Available Scripts
 
+### npm install tailwindcss
+
 In the project directory, you can run:
 
 ### `npm start`
